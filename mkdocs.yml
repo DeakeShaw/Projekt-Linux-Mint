@@ -1,0 +1,145 @@
+site_name: Project Linux Mint
+site_url: https://deakeshaw.github.io/Projekt-Linux-Mint/
+site_author: Deake Shaw
+
+repo_name: DeakeShaw/Projekt-Linux-Mint
+repo_url: https://github.com/DeakeShaw/Projekt-Linux-Mint
+
+site_url: https://mydomain.org/mysite
+theme:
+  name: material
+  features:
+    # - announce.dismiss
+    # - content.action.edit
+    # - content.action.view
+    - content.code.annotate
+    - content.code.copy
+    - content.code.select
+    # - content.footnote.tooltips
+    - content.tabs.link
+    - content.tooltips
+    # - header.autohide
+    # - navigation.expand
+    # - navigation.footer
+    - navigation.indexes
+    - navigation.instant
+    # - navigation.instant.prefetch
+    # - navigation.instant.progress
+    - navigation.instant.preview
+    - navigation.prune
+    - navigation.sections
+    - navigation.tabs
+    # - navigation.tabs.sticky
+    - navigation.top
+    # - navigation.tracking
+    # - search.highlight
+    - search.share
+    - search.suggest
+    - toc.follow
+    # - toc.integrate
+
+  palette:
+    - media: '(prefers-color-scheme)'
+      toggle:
+        icon: material/link
+        name: Switch to light mode
+    - media: '(prefers-color-scheme: light)'
+      scheme: default
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/toggle-switch
+        name: Switch to dark mode
+    - media: '(prefers-color-scheme: dark)'
+      scheme: slate
+      primary: custom
+      accent: custom
+      toggle:
+        icon: material/toggle-switch-off
+        name: Switch to system preference
+  
+  font: false
+  favicon: assets/images/logo-32x32.png
+  logo: assets/images/logo-192x192.png
+  icon:
+    annotation: material/information-slab-circle-outline
+
+# Plugins
+# plugins:
+#   - search:
+#     separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
+
+# Extensions
+markdown_extensions:
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences:
+      custom_fences:
+      - name: mermaid
+        class: mermaid
+        format: !!python/name:pymdownx.superfences.fence_code_format
+  - pymdownx.tabbed:
+      alternate_style: true
+  - pymdownx.arithmatex:
+      generic: true
+  - attr_list
+  - md_in_html
+  - pymdownx.blocks.caption
+
+  - pymdownx.highlight:
+      anchor_linenums: true
+      line_spans: __span
+      pygments_lang_class: true
+  - pymdownx.inlinehilite
+  - pymdownx.snippets
+  - pymdownx.superfences
+  - pymdownx.keys
+
+  - def_list
+  - pymdownx.tasklist:
+      custom_checkbox: true
+      clickable_checkbox: true
+
+  - pymdownx.emoji:
+      emoji_index: !!python/name:material.extensions.emoji.twemoji
+      emoji_generator: !!python/name:material.extensions.emoji.to_svg
+
+extra_css:
+  - assets/stylesheets/extra.css
+extra_javascript:
+  - assets/javascripts/checklist-save.js
+
+plugins:
+  - git-revision-date-localized:
+      enable_creation_date: true
+      type: timeago
+  - git-committers:
+      repository: dein-username/dein-repo-name
+      branch: main
+
+# Page tree
+nav:
+  - Willkommen: index.md
+  - Checkliste zum Umstieg: einrichtung/checkliste.md
+  - Sicherheit:
+    - Legitimierung: einrichtung/sicherheit/legitimierung.md
+    - Schlüsselbund: einrichtung/sicherheit/schluesselbund.md
+  - Programme: 
+    - einrichtung/programme/programme.md
+    # - Thunderbird: einrichtung/programme/thunderbird.md
+    # - LibreOffice: einrichtung/programme/libreoffice.md
+    # - NAPS2: einrichtung/programme/naps2.md
+    # - KeePassXC: einrichtung/programme/keepassxc.md
+    # - Wire: einrichtung/programme/wire.md
+
+    - Epson Scan2:
+      # - einrichtung/programme/epson/nutzung.md
+      - einrichtung/programme/epson/install.md
+  - Projekt-Dokumentation (IT):
+    # - projekt/index.md
+    - Boot-Stick-Vorbereiten:
+      - projekt/stick-erstellen/iso-erstellen.md
+      - projekt/stick-erstellen/iso-anpassen.md
+      - projekt/stick-erstellen/stick-erstellen.md
+    # - Deployment:
+    #   - projekt/deployment/checkliste.md
