@@ -4,8 +4,8 @@ Dieses Handbuch führt dich durch die Installation der Treiber für unsere neuen
 Folge einfach den Schritten.
 
 !!! warning "Vorbereitung"
-    Stelle sicher, dass du das **Administrator-Passwort** des Computers zur Hand hast. 
-    Du wirst es im Verlauf der Installation benötigen.
+    Stelle sicher, dass du als **Administrator** angemeldet bist und das **Administrator-Passwort** zur Hand hast. 
+    Du wirst es im Verlauf der Installation benötigen ggf. noch einmal benötigen.
 
 ---
 
