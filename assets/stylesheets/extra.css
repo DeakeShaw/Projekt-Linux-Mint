@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@500&family=Fira+Code&display=swap');
+
+.md-typeset .admonition,
+.md-typeset details {
+  border-width: 0;
+  border-left-width: 4px;
+}
+
+:root {
+  --md-primary-fg-color:        #005c9e; /* Primary background */
+  --md-primary-fg-color--light: #005c9e; /* Light variant */
+  --md-primary-fg-color--dark:  #005c9e; /* Dark variant */
+  --md-accent-fg-color:        #0f78bf; /* Primary background */
+  --md-accent-fg-color--light: #0f78bf; /* Light variant */
+  --md-accent-fg-color--dark:  #0f78bf; /* Dark variant */
+
+  --md-text-font: "Quicksand", sans-serif;
+  --md-code-font: "Fira Code", monospace;
+}
+
+.md-header__button.md-logo {
+  background-color: rgb(255, 255, 255); /* oder Ihre gewünschte Farbe */
+  padding: 5px 7px;
+  border-radius: 10px;
+}
