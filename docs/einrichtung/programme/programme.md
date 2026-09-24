@@ -40,13 +40,13 @@ hier findet ihr eine kurze Übersicht, wofür ihr sie braucht.
 
 ## Sonstige Werkzeuge
 
-| Programm                                 | Wofür?                           | Entspricht unter Windows      | Link                                     |
-| ---------------------------------------- | -------------------------------- | ----------------------------- | ---------------------------------------- |
-| **VLC**                                  | Videos und Musik abspielen       | VLC / Windows Media Player    | [videolan.org](https://www.videolan.org) |
-| **NAPS2**                                | Dokumente einscannen             | Druckersoftware / Scanner-App | [naps2.com](https://www.naps2.com)       |
-| **[Epson Scan2](../programme/epson.md)** | Quittungen einscannen            | ScanSnap                      | [epson.de](https://www.epson.de)         |
-| **KeePassXC**                            | Passwörter sicher speichern      | –                             | [keepassxc.org](https://keepassxc.org)   |
-| **MyJugendHilfe**                        | Fachsoftware für die Einrichtung | –                             | –                                        |
+| Programm                            | Wofür?                           | Entspricht unter Windows      | Link                                     |
+| ----------------------------------- | -------------------------------- | ----------------------------- | ---------------------------------------- |
+| **VLC**                             | Videos und Musik abspielen       | VLC / Windows Media Player    | [videolan.org](https://www.videolan.org) |
+| **NAPS2**                           | Dokumente einscannen             | Druckersoftware / Scanner-App | [naps2.com](https://www.naps2.com)       |
+| **[Epson Scan2](epson/install.md)** | Quittungen einscannen            | ScanSnap                      | [epson.de](https://www.epson.de)         |
+| **KeePassXC**                       | Passwörter sicher speichern      | –                             | [keepassxc.org](https://keepassxc.org)   |
+| **MyJugendHilfe**                   | Fachsoftware für die Einrichtung | –                             | –                                        |
 
 ## 🧪 Zusätzlich verfügbar (optional, nach Bedarf)
 
