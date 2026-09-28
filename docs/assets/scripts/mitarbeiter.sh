@@ -17,7 +17,7 @@ cat > /home/mitarbeiter/Desktop/Hilfe.desktop << 'HELP'
 Version=1.0
 Type=Application
 Name=Hilfe
-Exec=chromium --app=https://deakeshaw.github.io/Projekt-Felicitas/
+Exec=chromium --app=https://deakeshaw.github.io/Projekt-Linux-Mint/
 Icon=/usr/share/icons/help.png
 Terminal=false
 StartupNotify=true
