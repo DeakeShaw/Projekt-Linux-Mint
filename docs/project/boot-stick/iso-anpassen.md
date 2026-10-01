@@ -1,4 +1,4 @@
-# ISO-Anpassen
+# ISO anpassen
 
 ## Programme installieren
 !!! info
@@ -145,7 +145,7 @@ cat > /etc/skel/.config/chromium/Default/Bookmarks << 'EOF'
                     "id": "5",
                     "name": "Hilfe",
                     "type": "url",
-                    "url": "https://deakeshaw.github.io/Projekt-Felicitas/"
+                    "url": "https://deakeshaw.github.io/Projekt-Linux-Mint/"
                 },
                 {
                     "date_added": "13324876811749995",
@@ -218,7 +218,7 @@ Eine hoffentlich vorübergehende "einfache" Lösung ist es den Account in Form e
 Hierfür das Skript einmal von [hier](../../assets/scripts/mitarbeiter.sh){:download="mitarbeiter.sh"} gedownloaded werden.  
 Anschließend in `cd /home/` und mittels Drag and Drop hineinkopieren. 
 
-Ebenso müssen auch folgende Logos gedownloaded werden: [MyJugendhilfe](../../assets/images/iso-webapp-images/mjh.png){:download}, [Stiftung](../../assets/images/iso-webapp-images/help.png){:download}.  
+Ebenso müssen auch folgende Logos gedownloaded werden: [MyJugendhilfe](../../assets/images/project/iso-webapp-images/mjh.png){:download}, [Stiftung](../../assets/images/project/iso-webapp-images/help.png){:download}.  
 Diese müssen dann auch per Drag and Drop unter `cd /usr/share/icons` abgelegt werden.
 
 ### Inhalt des Skriptes
@@ -257,7 +257,7 @@ Erstellen von zwei zusätzlichen WebApps die von den Mitarbeitern genutzt werden
     Version=1.0
     Type=Application
     Name=Hilfe
-    Exec=chromium --app=https://deakeshaw.github.io/Projekt-Felicitas/
+    Exec=chromium --app=https://deakeshaw.github.io/Projekt-Linux-Mint/
     Icon=/usr/share/icons/help.png
     Terminal=false
     StartupNotify=true

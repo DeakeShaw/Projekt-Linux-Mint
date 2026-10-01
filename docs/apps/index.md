@@ -40,13 +40,15 @@ hier findet ihr eine kurze Übersicht, wofür ihr sie braucht.
 
 ## Sonstige Werkzeuge
 
-| Programm                            | Wofür?                           | Entspricht unter Windows      | Link                                     |
-| ----------------------------------- | -------------------------------- | ----------------------------- | ---------------------------------------- |
-| **VLC**                             | Videos und Musik abspielen       | VLC / Windows Media Player    | [videolan.org](https://www.videolan.org) |
-| **NAPS2**                           | Dokumente einscannen             | Druckersoftware / Scanner-App | [naps2.com](https://www.naps2.com)       |
-| **[Epson Scan2](epson/install.md)** | Quittungen einscannen            | ScanSnap                      | [epson.de](https://www.epson.de)         |
-| **KeePassXC**                       | Passwörter sicher speichern      | –                             | [keepassxc.org](https://keepassxc.org)   |
-| **MyJugendHilfe**                   | Fachsoftware für die Einrichtung | –                             | –                                        |
+| Programm                                    | Wofür?                           | Entspricht unter Windows      | Link                                     |
+| ------------------------------------------- | -------------------------------- | ----------------------------- | ---------------------------------------- |
+| **[Epson Scan2](epsonscan2.md)**            | Quittungen einscannen            | ScanSnap                      | [epson.de](https://www.epson.de)         |
+| **KeePassXC**                               | Passwörter sicher speichern      | –                             | [keepassxc.org](https://keepassxc.org)   |
+| **MyJugendHilfe**                           | Fachsoftware für die Einrichtung | –                             | –                                        |
+| **NAPS2**                                   | Dokumente einscannen             | Druckersoftware / Scanner-App | [naps2.com](https://www.naps2.com)       |
+| **VLC**                                     | Videos und Musik abspielen       | VLC / Windows Media Player    | [videolan.org](https://www.videolan.org) |
+<!-- | **[KeePassXC](keepassxc.md)**               | Passwörter sicher speichern      | –                             | [keepassxc.org](https://keepassxc.org)   | -->
+<!-- | **[NAPS2](naps2.md)**                       | Dokumente einscannen             | Druckersoftware / Scanner-App | [naps2.com](https://www.naps2.com)       | -->
 
 ## 🧪 Zusätzlich verfügbar (optional, nach Bedarf)
 
@@ -54,9 +56,11 @@ Diese Programme sind bereits getestet und können bei Bedarf installiert
 werden. Sie gehören aber nicht zur Standardausstattung – wenn ihr eines
 davon braucht, meldet euch kurz bei uns.
 
-| Programm  | Wofür?             | Genutzt Entspricht unter Windows | Link                               |
-| --------- | ------------------ | -------------------------------- | ---------------------------------- |
-| **Brave** | Im Internet surfen | Chrome                           | [brave.com](https://www.brave.com) |
+| Programm     | Wofür?                   | Genutzt Entspricht unter Windows | Link                                         |
+| ------------ | ------------------------ | -------------------------------- | -------------------------------------------- |
+| **Brave**    | Im Internet surfen       | Chrome                           | [brave.com](https://www.brave.com)           |
+| **Kdenlive** | Video Schnitt            |                                  | [kdenlive.com](https://kdenlive.org/de/)     |
+| **Openshot** | Video Schnitt (Beginner) |                                  | [openshot.com](https://www.openshot.org/de/) |
 
 ---
 

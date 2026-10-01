@@ -47,7 +47,7 @@
 ### Programme & Geräte
 - [ ] **Anzahl** aller PCs und Laptops mitteilen
 - [ ] **Zusätzliche Programme** notieren, die ihr nutzt und die **nicht** auf der
-      [Programme-Seite](../einrichtung/programme/programme.md) stehen (1)
+      [Programme-Seite](../../apps/index.md) stehen (1)
     { .annotate }
     
     1. Bereits enthaltene Programme müssen nicht extra notiert werden

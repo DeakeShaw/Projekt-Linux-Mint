@@ -1,7 +1,5 @@
 # Legitimierungsanfragen
 
-## Warum fragt Linux nach meinem Passwort?
-
 Wenn du unter Linux arbeitest, wirst du regelmäßig aufgefordert, dein Passwort einzugeben. Das kann verwirrend sein – besonders wenn die Anfragen unterschiedlich aussehen oder zu unterschiedlichen Zeitpunkten erscheinen.
 
 Die gute Nachricht: **Das ist normal und ein wichtiger Sicherheitsmechanismus.** Linux schützt dich und das System damit vor unbeabsichtigten oder böswilligen Änderungen.
@@ -11,7 +9,7 @@ Die gute Nachricht: **Das ist normal und ein wichtiger Sicherheitsmechanismus.**
 Linux fragt nach deinem Passwort aus unterschiedlichen Gründen. Hier sind die wichtigsten:
 
 ### 1. Admin-Legitimierung
-![Admin](../../assets/images/sicherheit/legitimierung/admin.png)
+![Admin](../assets/images/mint/legitimierung/admin.png)
 
 **Wann?** Wenn du etwas am **gesamten System** änderst.
 
@@ -29,7 +27,7 @@ Linux fragt nach deinem Passwort aus unterschiedlichen Gründen. Hier sind die w
 ---
 
 ### 2. Schlüsselbund-Entsperrung
-![Schlüsselbund](../../assets/images/sicherheit/legitimierung/schluesselbund.png)
+![Schlüsselbund](../assets/images/mint/legitimierung/schluesselbund.png)
 
 **Wann?** Wenn ein Programm **gespeicherte Passwörter oder Verschlüsselungsschlüssel** abrufen möchte.
 
@@ -47,4 +45,4 @@ Linux fragt nach deinem Passwort aus unterschiedlichen Gründen. Hier sind die w
 ## Nächste Schritte
 
 <!-- - **Du möchtest mehr über Admin-Legitimierung erfahren?** → [Admin-Legitimierung (Sudo)](./admin-legitimierung.md) -->
-- **Fragen zum Schlüsselbund?** → [Schlüsselbund verstehen](./schlüsselbund.md)
+- **Fragen zum Schlüsselbund?** → [Schlüsselbund verstehen](./schluesselbund.md)

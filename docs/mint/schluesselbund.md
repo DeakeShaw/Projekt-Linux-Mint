@@ -1,7 +1,5 @@
 # Schlüsselbund verstehen
 
-## Was ist der Schlüsselbund?
-
 Der **Schlüsselbund** (englisch: *Keyring*) ist ein **verschlüsselter Safe** auf deinem Computer, in dem sensible Daten gespeichert werden:
 
 - **Verschlüsselungsschlüssel** (für Chats, Nachrichten)

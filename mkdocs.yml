@@ -1,4 +1,4 @@
-site_name: Project Linux Mint
+site_name: Projekt Linux Mint
 site_url: https://deakeshaw.github.io/Projekt-Linux-Mint/
 site_author: Deake Shaw
 
@@ -64,11 +64,6 @@ theme:
   icon:
     annotation: material/information-slab-circle-outline
 
-# Plugins
-# plugins:
-#   - search:
-#     separator: '[\s\u200b\-_,:!=\[\]()"`/]+|\.(?!\d)|&[lg]t;|(?!\b)(?=[A-Z][a-z])'
-
 # Extensions
 markdown_extensions:
   - admonition
@@ -109,37 +104,42 @@ extra_css:
 extra_javascript:
   - assets/javascripts/checklist-save.js
 
+# Plugins
 plugins:
-  - git-revision-date-localized:
-      enable_creation_date: true
-      type: timeago
-  - git-committers:
-      repository: dein-username/dein-repo-name
-      branch: main
+  - search:
+      lang: de
+      separator: '[\s\-]+'
+  # - git-revision-date-localized:
+  #     enable_creation_date: true
+  #     type: timeago
+  #     fallback_to_build_date: true
+  # - git-committers:
+  #     repository: dein-username/dein-repo-name
+  #     branch: main
 
 # Page tree
 nav:
   - Willkommen: index.md
-  - Checkliste zum Umstieg: einrichtung/checkliste.md
-  - Sicherheit:
-    - Legitimierung: einrichtung/sicherheit/legitimierung.md
-    - Schlüsselbund: einrichtung/sicherheit/schluesselbund.md
-  - Programme: 
-    - einrichtung/programme/programme.md
-    # - Thunderbird: einrichtung/programme/thunderbird.md
-    # - LibreOffice: einrichtung/programme/libreoffice.md
-    # - NAPS2: einrichtung/programme/naps2.md
-    # - KeePassXC: einrichtung/programme/keepassxc.md
-    # - Wire: einrichtung/programme/wire.md
 
-    - Epson Scan2:
-      # - einrichtung/programme/epson/nutzung.md
-      - einrichtung/programme/epson/install.md
+  - Programme: 
+    - apps/index.md
+    - Epson Scan 2: apps/epsonscan2.md
+    # - KeePassXC: apps/keepassxc.md
+    # - NAPS2: apps/naps2.md
+
+  - Linux Mint:
+    - mint/index.md
+    # - Anwendungen: mint/apps.md
+    - Legitimierung: mint/legitimierung.md
+    - Schlüsselbund: mint/schluesselbund.md
+    # - Nutzer: mint/user.md
+
   - Projekt-Dokumentation (IT):
-    # - projekt/index.md
-    - Boot-Stick-Vorbereiten:
-      - projekt/stick-erstellen/iso-erstellen.md
-      - projekt/stick-erstellen/iso-anpassen.md
-      - projekt/stick-erstellen/stick-erstellen.md
-    # - Deployment:
-    #   - projekt/deployment/checkliste.md
+    - project/index.md
+    - Boot-Stick:
+      - project/boot-stick/iso-erstellen.md
+      - project/boot-stick/iso-anpassen.md
+      - project/boot-stick/iso-auf-stick.md
+    - Checklisten:
+      - Einrichtung: project/checklists/einrichtung.md
+      # - Installation: project/checklists/installation.md

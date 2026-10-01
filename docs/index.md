@@ -22,7 +22,7 @@ wenn ihr eine Frage habt – egal ob vor dem Umstieg oder Monate später.
     Steht der Umstieg bei euch bald an? Hier findet ihr alles, was vorher
     erledigt sein sollte.
 
-    [:octicons-arrow-right-24: Zur Checkliste](einrichtung/checkliste.md)
+    [:octicons-arrow-right-24: Zur Checkliste](project/checklists/einrichtung.md)
 
 -   :material-apps:{ .lg .middle } **Programme**
 
@@ -31,7 +31,7 @@ wenn ihr eine Frage habt – egal ob vor dem Umstieg oder Monate später.
     Übersicht aller Programme auf den neuen Rechnern – inkl. Links und
     Anleitungen.
 
-    [:octicons-arrow-right-24: Zur Übersicht](einrichtung/programme/programme.md)
+    [:octicons-arrow-right-24: Zur Übersicht](apps/index.md)
 
 <!-- -   :material-help-circle-outline:{ .lg .middle } **Was möchtest du tun?**
 
