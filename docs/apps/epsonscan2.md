@@ -1,8 +1,8 @@
-Hier findet ihr alle wichtigen Infos rund um den neuen Epson Scanner. Sowohl wie ihr **installiert**, falls noch nicht geschehen, als auch was für **Einstellungen** empfohlen werden, damit das **Scannen** aller Quittungen so schnell und effizient wie möglich läuft.
+Hier findest du alle wichtigen Infos rund um den neuen Epson Scanner. Sowohl wie du die entsprechende Software **installierst**, falls noch nicht geschehen, als auch was für **Einstellungen** empfohlen werden, damit das **Scannen** aller Belege so schnell und effizient wie möglich läuft.
 
 ## Installation
 
-Dieses Handbuch führt dich durch die Installation der Treiber für unsere neuen Quittungs-Scanner unter Linux. 
+Dieses Handbuch führt dich durch die Installation der Treiber für unsere neuen Belege-Scanner unter Linux. 
 Folge einfach den Schritten.
 
 !!! warning "Vorbereitung"
@@ -84,19 +84,19 @@ Für die aus unserer Sicht effizienteste Nutzung empfehlen wir folgende Einstell
 <h3>Anmerkung und Erklärung</h3>
 
 <h4>Dokumentenquelle</h4>
-**ADF** (steht für **Automatic Document Feeder**, also **automatischer Dokumenteneinzug**) ist speziell dann nötig, wenn der Automatische Transportmodus aktiviert ist, da der Scanner dann beim Einschieben eines neuen Originals dieses automatisch erkennt und den Scannvorgang startet.
+**ADF** (steht für **Automatic Document Feeder**, also **automatischer Dokumenteneinzug**) ist speziell dann nötig, wenn der Automatische Transportmodus aktiviert ist, da der Scanner dann beim Einschieben eines neuen Beleges dieses automatisch erkennt und den Scannvorgang startet.
 
 <h4>Automatischer Transportmodus</h4>
-Empfehlen wir auf **Ein** zu stellen, da es ermöglicht, den Scan-Prozess einmal manuell zu starten und dann mittels **ADF** ohne Unterbrechung alle Originale am Stück scannen zu können.
+Empfehlen wir auf **Ein** zu stellen, da es ermöglicht, den Scan-Prozess einmal manuell zu starten und dann mittels **ADF** ohne Unterbrechung alle Belege am Stück scannen zu können.
 
 <h4>Vorlagengröße</h4>
-Kann nach Präferierung angepasst werden. Jedoch haben wir im Test festgestellt, dass auch **Automatische Erkennung** nicht ausreicht, um lange Quittungen am Stück einscannen zu können. Der einzige Modus, in dem wir bei unseren Tests beliebig lange Quittungen problemlos einscannen konnten, war **Auto Erkenn(Lang Papier)**.
+Kann nach Präferierung angepasst werden. Jedoch haben wir im Test festgestellt, dass auch **Automatische Erkennung** nicht ausreicht, um lange Belege am Stück einscannen zu können. Der einzige Modus, in dem wir bei unseren Tests beliebig lange Belege problemlos einscannen konnten, war **Auto Erkenn(Lang Papier)**.
 
 <h4>Auflösung</h4>
 Wir empfehlen **200 DPI**, weil das Verhältnis zwischen **Geschwindigkeit** und **Qualität** am besten ist. Solltet ihr nach einem Scan festellen, dass das gescannte Dokument zu unscharf ist, empfehlen wir mit der Auflösung etwas höher zu gehen. Hierbei sei aber erwähnt, dass eine höhere Auflösung zu einer längeren Scandauer pro Dokument führt.
 
 <h4>Bildformat</h4>
-Grundsätzlich kann nach Belieben auch eine andere Einstellung gewählt werden. Nach dem Feedback, was uns erreicht hat, ist es jedoch lästig, eine einzelne PDF zu haben, in der alle Quittungen enhalten sind und diese dann nachträglich manuell trennen und einzeln abspeichern zu müssen. Genauso lästig ist es, für jede Quittung einen neuen Scann-Prozess starten zu müssen. Aus diesem Grund empfehlen wir folgende Einstellung, die es euch ermöglicht, alle Quittungen auf einmal fortlaufend einzuscannen und jede Quittung im Anschluss automatisch in einem eigenständigen PDF-Dokument zu speichern.
+Grundsätzlich kann nach Belieben auch eine andere Einstellung gewählt werden. Nach dem Feedback, was uns erreicht hat, ist es jedoch lästig, eine einzelne PDF zu haben, in der alle Belege enhalten sind und diese dann nachträglich manuell trennen und einzeln abspeichern zu müssen. Genauso lästig ist es, für jeden Beleg einen neuen Scann-Prozess starten zu müssen. Aus diesem Grund empfehlen wir folgende Einstellung, die es euch ermöglicht, alle Belege auf einmal fortlaufend einzuscannen und jeder Beleg im Anschluss automatisch in einem eigenständigen PDF-Dokument zu speichern.
 
 <div class="annotate" markdown>
 Klickt hierfür auf das Dropdown-Menu neben **Bildformat** (in dem PDF, PNG o.Ä. steht) und darin klickt ihr dann auf **Optionen**.(1)  
@@ -119,7 +119,7 @@ Hier sei nur zu erwähnen, dass hinter **Ordner** als Speicherort **Vorlage** st
 1. **Epson Scan 2** starten(1)
 2. **Einstellungen** prüfen (2)
 3. **Scannen** Button klicken, um Scan-Prozess zu starten. (3)
-4. Quittungen nacheinander durch Scanner laufen lassen.
+4. Belege nacheinander durch Scanner laufen lassen.
 5. Nach dem letzten Dokument, das gescannt wurde, kann auf Fertigstellen geklickt werden und der Scann-Vorgang ist abgeschlossen.
 </div>
 
